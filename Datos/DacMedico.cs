@@ -1,4 +1,5 @@
-﻿using Entidades;
+﻿using Datos.Data;
+using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,34 +8,38 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
+
     public static class DacMedico
     {
+        private static DBClinicaEFContext context = new DBClinicaEFContext();
         public static List<Medico> Select()
         {
-            //TODO Falta implementar código -
-            return null;
+            return context.Medicos.ToList();
         }
 
-        public static List<Medico> Select(string especialidad)
+        public static Medico Select(string especialidad)
         {
-            //TODO Falta implementar código - Select a la tabla Medico
-            return null;
+            return context.Medicos.Find(especialidad);
         }
 
-        public static int Insertar(Medico medico)
+        public static int Insert(Medico medico)
         {
-            //TODO Falta implementar código - INSERT a la tabla Medico.
-            return 0;
+            context.Medicos.Add(medico);
+            return context.SaveChanges();
         }
         public static int Eliminar(int id)
         {
-            //TODO Falta implementar código - DELETE a la tabla Medico.
+            Medico medicoOrigen = context.Medicos.Find(id);
+            if (medicoOrigen != null)
+            {
+                context.Medicos.Remove(medicoOrigen);
+                return context.SaveChanges();
+            }
             return 0;
         }
-        public static int SelectById(int id)
+        public static Medico SelectById(int id)
         {
-            //TODO Falta implementar código - SelectById a la tabla Medico.
-            return 0;
+            return context.Medicos.Find(id);
         }
 
     }

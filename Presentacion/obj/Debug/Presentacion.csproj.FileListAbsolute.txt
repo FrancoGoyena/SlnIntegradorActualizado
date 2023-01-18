@@ -24,3 +24,29 @@ H:\Gladys\Desktop\Curso .NET\Programación Web NET Core\Clases\Clase 4\TP integr
 H:\Gladys\Desktop\Curso .NET\Programación Web NET Core\Clases\Clase 4\TP integrador POO y Capas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 H:\Gladys\Desktop\Curso .NET\Programación Web NET Core\Clases\Clase 4\TP integrador POO y Capas\Presentacion\obj\Debug\Presentacion.exe
 H:\Gladys\Desktop\Curso .NET\Programación Web NET Core\Clases\Clase 4\TP integrador POO y Capas\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Entidades.dll
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Franco\Source\Repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\Datos.dll
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\Negocio.dll.config
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\Datos.pdb
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\Datos.dll.config
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\Entidades.dll.config
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Franco\source\repos\SlnIntegrador\Presentacion\obj\Debug\Presentacion.frmMedico.resources

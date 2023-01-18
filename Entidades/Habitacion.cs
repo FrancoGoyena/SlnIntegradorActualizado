@@ -8,6 +8,7 @@ namespace Entidades
 {
     public class Habitacion
     {
+        public Habitacion() { }
         public Habitacion(int Id, int Numero, string Estado)
         {
 

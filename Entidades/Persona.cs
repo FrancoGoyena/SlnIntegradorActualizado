@@ -8,6 +8,7 @@ namespace Entidades
 {
     public abstract class Persona
     {
+        public Persona() { }
         public Persona(string Nombre, string Apellido, string Domicilio, int Telefono, string Email, int Id)
         {
             this.Nombre = Nombre;

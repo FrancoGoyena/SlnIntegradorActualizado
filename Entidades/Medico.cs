@@ -8,6 +8,7 @@ namespace Entidades
 {
     public class Medico : Persona
     {
+        public Medico() { }
         public Medico(string Nombre, string Apellido, string Domicilio, int Telefono, string Email, int Id, int Matricula, string Especialidad) : base(Nombre, Apellido, Domicilio, Telefono, Email, Id)
         {
             this.Matricula = Matricula;

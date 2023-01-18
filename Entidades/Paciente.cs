@@ -8,6 +8,7 @@ namespace Entidades
 {
     public class Paciente : Persona
     {
+        public Paciente() { }
         public Paciente(string Nombre, string Apellido, string Domicilio, int Telefono, string Email, int Id, int NroHistoriaClinica) : base(Nombre, Apellido, Domicilio, Telefono, Email, Id)
         {
             this.NroHistoriaClinica = NroHistoriaClinica;

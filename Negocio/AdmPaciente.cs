@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Entidades;
 using Datos;
+using Datos.Data;
 
 namespace Negocio
 {
     public static class AdmPaciente
     {
+        private static DBClinicaEFContext context = new DBClinicaEFContext();
         public static List<Paciente> Listar()
         {
             List<Paciente> ListaPacientes = new List<Paciente>();
@@ -20,28 +22,29 @@ namespace Negocio
             ListaPacientes.Add(new Paciente("Julian", "Guerrero", "San Juan 900", 99999, "julianpaciente@gmail.com", 9, 4000));
             ListaPacientes.Add(new Paciente("Franco", "Díaz", "San Juan 1000", 00000, "francopaciente@gmail.com", 10, 5000));
 
-            return ListaPacientes;
+            return context.Pacientes.ToList();
         }
 
         public static int Insertar(Paciente paciente)
         {
-            //TODO Inserta un paciente a la lista
-
-            return 0;
+            context.Pacientes.Add(paciente);
+            return context.SaveChanges();
         }
 
         public static int Eliminar(int id)
         {
-            //TODO Elimina un paciente de la lista
-
+            Paciente pacienteOrigen = context.Pacientes.Find(id);
+            if (pacienteOrigen != null)
+            {
+                context.Pacientes.Remove(pacienteOrigen);
+                return context.SaveChanges();
+            }
             return 0;
         }
 
         public static Paciente TraerUno(int nroHistoriaClinica)
         {
-            //TODO Trae un paciente de la lista
-
-            return null;
+            return context.Pacientes.Find(nroHistoriaClinica);
         }
 
     }
